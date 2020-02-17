@@ -1,0 +1,149 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*HEADER*/
+.header
+{
+    background-color: #006491;
+    color: white;
+    display: flex;
+    font-weight: bolder;
+}
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-container
+{
+    display: inherit;
+}
+
+.nav
+{
+    display: inherit;
+    height: 90px;
+}
+
+.nav ol
+{
+    display: inherit;
+    height: inherit;
+    margin: 0px;
+}
+
+.nav ol li
+{
+    list-style: none;
+    display: inherit;
+    align-items: center;
+    height: inherit;
+}
+
+.nav ol li a
+{
+    display: inherit;
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    padding: 0px 10px;
+    align-items: center;
+}
+
+.cart
+{
+    width: 30px;
+    height: 30px;
+}
+
+.cart-container
+{
+    display: flex;
+    align-items: center;
+}
+
+/*/HEADER*/
+
+/*CONTENT*/
+
+/*START YOUR ORDER*/
+.start-your-order-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #006491;
+    margin: 20px 0px;
+}
+
+.start-your-order-title
+{
+    font-size: 25px;
+}
+
+.buttons-orders-container
+{
+    display: inherit;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.home-container
+{
+    padding: 15px 40px;
+    border: 1px solid transparent;
+    background-color: #e31837;
+    border-radius: 3px;
+}
+.home-container:hover
+{
+    background-color: #e35868;
+}
+
+.home-container a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.o-container
+{
+    margin: 0px;
+    padding: 0px 10px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.pick-up-container
+{
+    padding: 15px 40px;
+    border: 1px solid transparent;
+    background-color: #e31837;
+    border-radius: 3px;
+}
+
+.pick-up-container:hover
+{
+    background-color: #e35868;
+}
+
+.pick-up-container a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/*/START YOUR ORDER*/
+
+/*/CONTENT*/
+
+/*FOOTER*/
+.footer
+{
+    background-color: gray;
+}
