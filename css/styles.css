@@ -1,6 +1,7 @@
 body
 {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6 ;
 }
 /*HEADER*/
 .header
@@ -9,6 +10,7 @@ body
     color: white;
     display: flex;
     font-weight: bolder;
+    justify-content: center;
 }
 
 .logo
@@ -140,10 +142,101 @@ body
 }
 /*/START YOUR ORDER*/
 
+/*ADVERTISING IMAGES*/
+.advertising-images-container
+{
+    display: block;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.images-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.first-image-container
+{
+    width: 100%;
+    text-align: end;
+}
+
+.second-image-container
+{
+    padding-bottom: 10px;
+}
+
+.figure-first-imagen
+{
+    margin: auto;
+}
+
+.two-advertising-images
+{
+    width: 30%;
+    margin-right: 40px;
+}
+
+.figure-second-image
+{
+    margin: auto;
+}
+
+.figure-third-image
+{
+    margin: auto;
+}
+
+.fourth-image-container
+{
+    text-align: center;
+}
+/*/ADVERTISING IMAGES*/
+
 /*/CONTENT*/
 
 /*FOOTER*/
 .footer
 {
-    background-color: gray;
+    background-color: #D7D7D7;
+}
+
+.footer-nav-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav
+{
+    display: inherit;
+    height: 50px;
+}
+
+.footer-nav ol
+{
+    display: inherit;
+    height: inherit;
+    align-items: center;
+    margin: 0px;
+}
+
+.footer-nav ol li
+{
+    list-style: none;
+    height: inherit;
+    display: inherit;
+    align-items: center;
+}
+
+.footer-nav ol li a
+{
+    text-decoration: none;
+    height: inherit;
+    display: inherit;
+    align-items: center;
+    padding: 0px 10px;
+    color: black;
 }
