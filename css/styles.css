@@ -2,6 +2,7 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f6f6f6 ;
+    margin: 0px;
 }
 /*HEADER*/
 .header
@@ -11,6 +12,7 @@ body
     display: flex;
     font-weight: bolder;
     justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .logo
@@ -22,6 +24,7 @@ body
 .nav-container
 {
     display: inherit;
+    
 }
 
 .nav
@@ -238,5 +241,101 @@ body
     display: inherit;
     align-items: center;
     padding: 0px 10px;
-    color: black;
+    color: #4a4a4a;
+}
+
+.social-networks-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook-container
+{
+    width: 50px;
+    margin: 0px 5px;
+}
+
+.figure-facebook
+{
+    margin: auto;
+    width: inherit;
+}
+
+.facebook
+{
+    width: inherit;
+}
+
+.instagram-container
+{
+    width: 35px;
+    margin: 0px 5px;
+}
+
+.figure-instagram
+{
+    margin: auto;
+    width: inherit;
+}
+
+.instagram
+{
+    width: inherit;
+}
+
+.twitter-container
+{
+    width: 35px;
+    margin: 0px 5px;
+}
+
+.figure-twitter
+{
+    margin: auto;
+    width: inherit;
+}
+
+.twitter
+{
+    width: inherit;
+}
+
+.pinterest-container
+{
+    width: 35px;
+    margin: 0px 5px;
+}
+
+.figure-pinterest
+{
+    margin: auto;
+    width: inherit;
+}
+
+.pinterest
+{
+    width: inherit;
+}
+
+.footer-advertising-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-paragraph-container
+{
+    color: #848484;
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+.paragraph-two
+{
+    margin-bottom: 0px;
+    padding-bottom: 5px;
 }
